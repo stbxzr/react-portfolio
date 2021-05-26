@@ -11,7 +11,7 @@ function App() {
       
       <NavbarElement />
       <Hero />
-      <h4 style={{ textDecorationLine: "underline", color: 'white' }} >CHECK OUT SOME OF MY WORK BELOW!</h4>
+      <h4 style={{ textDecorationLine: "underline", color: 'white' }} >CHECK OUT SOME OF MY WORK BELOW👨🏻‍💻</h4>
       <Projects />
 
     </div>
