@@ -9,6 +9,7 @@ const Hero = () => {
       fluid
       style={{
         backgroundImage: `url(https://cdn.dribbble.com/users/1053052/screenshots/3914148/_____2.gif)`,
+      
         backgroundSize: "cover",
       }}
     >
