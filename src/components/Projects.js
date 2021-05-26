@@ -8,8 +8,14 @@ import Row from 'react-bootstrap/Row'
 
 const Projects = () => {
   return (
-      <Row className="justify-content-md-center">
-    <CardGroup style={{ height: "20rem" }} bg="warning">
+      <Row         style={{
+        textAlign: "center",
+        width: "75rem",
+        marginLeft: "auto",
+        marginRight: "auto",
+      
+      }} >
+    <CardGroup style={{ height: "25rem" }} bg="warning">
       <Card
         text="white"
         style={{
@@ -52,7 +58,7 @@ const Projects = () => {
               Deploy To Application
             </Button>
         
-            <Button href="https://github.com/stbxzr/PoetryProject">
+            <Button href="https://github.com/universaleric/Quizami">
               Project Repository
             </Button>
           </Nav.Item>
@@ -70,10 +76,10 @@ const Projects = () => {
             <Card.Title style={{ textDecorationLine: "underline" }}>
               Helping Hands
             </Card.Title>
-            <Button variant="success" href="https://cstuhlfire.github.io/PoetryProject/">
+            <Button variant="success" href="https://github.com/universaleric/Helping-Hand">
               Deploy To Application
             </Button>
-            <Button href="https://github.com/stbxzr/PoetryProject">
+            <Button href="https://github.com/universaleric/Helping-Hand">
               Project Repository
             </Button>
           </Nav.Item>
